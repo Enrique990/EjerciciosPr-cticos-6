@@ -4,6 +4,8 @@ dimensiones de las matrices sean compatibles para la multiplicación y
 muestra la matriz resultante.
 */
 
+//sin copilot
+
 #include <iostream>
 using namespace std;
 int main()
