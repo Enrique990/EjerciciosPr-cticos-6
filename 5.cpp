@@ -30,3 +30,30 @@ int main()
     cout<<"La cantidad de alumnos reprobados son: "<<reprobados<<endl;
     return 0;
 }
+
+//con copilot
+
+/*#include<iostream>
+using namespace std;
+
+float nota, suma=0, promedio;
+
+int main()
+{
+    int aprobados = 0, reprobados = 0;
+    for(int i=1; i<=10; i++)
+    {
+        cout<<"Ingrese la nota del estudiante "<<i<<": ";
+        cin>>nota;
+        suma+=nota;
+        if (nota <70)
+        {
+            reprobados += 1; 
+        }else aprobados += 1;
+    }
+    promedio=suma/10;
+    cout<<"El promedio general de la seccion es: "<<promedio<<endl;
+    cout<<"La cantidad de alumnos aprobados son: "<<aprobados<<endl;
+    cout<<"La cantidad de alumnos reprobados son: "<<reprobados<<endl;
+    return 0;
+}*/

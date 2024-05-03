@@ -22,3 +22,23 @@ int main()
     cout<<"El promedio general de la seccion es: "<<promedio<<endl;
     return 0;
 }
+
+//con copilot
+
+/*#include<iostream>
+using namespace std;
+
+float nota, suma=0, promedio;
+
+int main()
+{
+    for(int i=1; i<=10; i++)
+    {
+        cout<<"Ingrese la nota del estudiante "<<i<<": ";
+        cin>>nota;
+        suma+=nota;
+    }
+    promedio=suma/10;
+    cout<<"El promedio general de la seccion es: "<<promedio<<endl;
+    return 0;
+}*/
